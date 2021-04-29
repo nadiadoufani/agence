@@ -1,0 +1,182 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  .voiture{
+      display: flex; padding: 60px;
+  }
+  
+  .form{
+    padding: 50px;
+  text-align: center;
+  display: flex;
+
+  }
+.sex{
+  display: flex;
+  text-align: center;
+  padding: 100px;
+
+}
+.header{
+  position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+  
+  .navbar {
+    display: flex;
+    background-color: #333;
+    
+  }
+  
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .conteneur{  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+  .side {
+    flex: 50%;
+  
+    padding: 20px;
+  }
+  
+  .main {
+    flex: 50%;
+    
+    padding: 20px;
+  }
+  .conteneur2{  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+  .side2 {
+    flex: 90%;
+  
+    padding: 20px;
+    border: 1px solid black;
+    margin-left:5% ;
+  }
+  
+  .main2 {
+    flex: 10%;
+    
+    padding: 20px;
+  }
+   .conteneur1{  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .side1 {
+    flex: 50%;
+  
+    padding: 20px;
+  }
+  
+  .main1 {
+    flex: 50%;
+    
+    padding: 20px;
+  }
+  .conteneur3{
+display: grid;
+padding: 10px;
+  }
+  .side3{  
+    grid-column: 1 / span 2;
+  grid-row: 1;
+  display: flex;
+  padding:10px ;
+  background-color: darkgray;
+}
+  
+  .ima{
+  
+  
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 100px;
+    
+    text-align: center;
+  }
+
+   .conteneur4{  
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .side4{
+    flex: 50%;
+  
+    padding: 20px;
+  }
+  
+  .main5{
+    flex: 50%;
+    
+    
+    padding: 20px;
+  }
+  
+  
+  /* Footer */
+
+  .footerconteneur {
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkgrey;
+    padding: 10px;
+  }
+  .footer1{
+    
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+  }
+  .footer2{
+    
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .footer3{
+    
+    
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+  h6{
+    color: blue;
+  }
+  
+  
+ 
+    
+  
