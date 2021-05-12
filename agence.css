@@ -7,9 +7,15 @@
     font-family: Arial;
     margin: 0;
   }
+
   .voiture{
-      display: flex; padding: 60px;
+    display: flex;
+    flex-wrap: nowrap;
+     padding: 20px;  
+  
   }
+  
+
   
   .form{
     padding: 50px;
@@ -17,6 +23,7 @@
   display: flex;
 
   }
+  
 .sex{
   display: flex;
   text-align: center;
@@ -28,11 +35,13 @@
     position: sticky;
     top: 0;
     padding: 5px;
+    
 }
   
   .navbar {
     display: flex;
     background-color: #333;
+  
     
   }
   
@@ -40,13 +49,17 @@
     color: white;
     padding: 14px 20px;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
+    
   }
+  
   
   .navbar a:hover {
     background-color: #ddd;
     color: black;
   }
+  
+  
   
   .conteneur{  
     display: flex;
@@ -62,7 +75,6 @@
   
   .main {
     flex: 50%;
-    
     padding: 20px;
   }
   .conteneur2{  
@@ -140,6 +152,76 @@ padding: 10px;
     
     padding: 20px;
   }
+  .phone{
+    border: 1px solid cadetblue  ;
+  }
+  .map{
+    border: 1px solid cadetblue ;
+  }
+  .envolope{
+    border: 1px solid cadetblue ;
+  }
+  .conteneur5{  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+  }
+  
+  .side5 {
+    flex: 50%;
+  
+    padding: 20px;
+  }
+  
+  .main5 {
+    flex: 50%;
+    padding: 20px;
+  }
+  .dropdown {
+    
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .dropdown1 {
+    
+    display: inline-block;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+
+    background-color: #f9f9f9;
+    min-width: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  
+  .desc1 {
+    padding: 15px;
+    text-align: center;
+  }
+  
   
   
   /* Footer */
@@ -147,23 +229,23 @@ padding: 10px;
   .footerconteneur {
     
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto; 
     background-color: darkgrey;
     padding: 10px;
   }
   .footer1{
     
     
-    padding: 20px;
+    padding:20px;
     font-size: 30px;
-    text-align: left;
+    
   }
   .footer2{
     
     
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    
+    font-size: 15px;
+    
   }
   .footer3{
     
@@ -172,9 +254,17 @@ padding: 10px;
     font-size: 30px;
     
   }
+  .footer4{
+    
+    
+    
+    font-size: 15px;
+    
+  }
   h6{
     color: blue;
   }
+  
   
   
  
